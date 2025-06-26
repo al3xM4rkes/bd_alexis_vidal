@@ -1,6 +1,5 @@
 # bd_alexis_vidal
-Portafolio de actividades individuales de la materia de Base de Datos
-Carlos Alexis Vidal Márquez
-Lic. Sistemas computacionales administrativos semestre 401
-Índice de actividades individuales:
-1- Infografía de los sistemas de información
+Carlos Alexis Vidal Márquez <br />
+Lic. Sistemas computacionales administrativos semestre 401 <br />
+Índice de actividades individuales: <br />
+1- Infografía de los sistemas de información <br />  
