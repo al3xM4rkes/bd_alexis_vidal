@@ -1,0 +1,22 @@
+Actividad 2 - Ejemplo de base de datos ALUMNOS
+
+Descripción:
+Primera demostración vista en clase para el desarrollo de una base de datos sencilla utilizando la estructura básica de SQL. Conexión a una base de datos Oracle local mediante SQL Developer.
+
+📂 Archivos incluidos
+- `script.sql`: contiene las instrucciones SQL para crear e insertar datos.
+- `evidencia.png`: muestra la ejecución exitosa del script.
+- `instrucciones.md`: este archivo.
+
+Instrucciones de uso
+1. Abre Oracle SQL Developer o tu aplicación de base de datos preferida.
+2. Conéctate a tu base de datos.
+3. Abre el archivo `script.sql` desde el menú `File > Open`.
+4. Ejecuta el script completo con el botón de “Run Script” (ícono de hoja con rayo) o usando CTRL + Enter.
+5. Verifica los resultados en la pestaña “Query Result”.
+6. Consulta la imagen `evidencia.png` para comparar resultados.
+
+✅ Resultado esperado
+- Se deben crear las columnas pk_alumno, nombre, apellido_paterno, apellido_materno, fecha_nacimiento, curp y rfc.
+- Se inserta un registro de prueba basado al ejemplo proporcionado en clase.
+- La consulta final debe mostrar los productos con su categoría correspondiente.
