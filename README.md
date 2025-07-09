@@ -10,7 +10,7 @@ https://github.com/Leosinfinite/-bd_equipo1 <br />
 <br />
 Índice de actividades individuales: <br />
 <br />
-  1- Infografía de los sistemas de información <br />
+  1.- Infografía de los sistemas de información <br />
   2.- Ejercicio CLASE01 ALUMNOS <br />
   3.- Ejercicio PRODUCTO <br />
-  4.- Ejercicio ALUMNOS PROMEDIO <br />
+  4.- Ejercicio ALUMNOS PROMEDIO 
