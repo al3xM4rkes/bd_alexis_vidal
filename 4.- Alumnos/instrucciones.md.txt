@@ -1,0 +1,27 @@
+Actividad 4 - Aplicación de UPDATE y DELETE en la tabla de promedios "Alumnos"
+
+Descripción:
+Después de haber comprendido los conceptos de CREATE y READ, en este ejercicio desarrollamos una pequeña tabla que depura el nombre de 5 alumnos junto con su promedio y semestre, aplicando los principales valores de id_alumno, nombre y promedio. Con ayuda del UPDATE ahora podremos agregar o modificar datos ya insertados de la tabla, además el conocimiento del DELETE nos permitió ser precavidos a la hora utilizarlo, especialmente cuando queremos borrar alguna fila de acuerdo a una condición.
+
+📂 Archivos incluidos
+- `Alumnos.sql`: contiene el código completo SQL del ejercicio.
+- `CREATE`: muestra la ejecución exitosa del script, creando las columnas ya mencionadas.
+- `READ`: muestra la ejecución exitosa del script, imprimiendo los valores escritos para cada alumno y el código restante.
+- `UPDATE`: una captura que demuestra la principal función del update, añadiendo 3 columnas adicionales junto con sus respectivos valores actualizados. 
+- `DELETE`: una captura final en donde prácticamente se eliminan los registros que le indiquemos a la máquina, borrando las filas donde el promedio es menor a 8.
+- `instrucciones.md`: este archivo.
+
+Instrucciones de uso
+1. Abre Oracle SQL Developer o tu aplicación de base de datos preferida.
+2. Conéctate a tu base de datos.
+3. Abre el archivo `Alumnos.sql` desde el menú `File > Open`.
+4. Ejecuta el script mediante Select * from Alumnos; para ver la tabla con el botón de “Run Script” (ícono de hoja con rayo) o usando CTRL + Enter.
+5. Para actualizar la tabla puedes arrastrar el clic desde ALTER TABLE Alumnos add (Apellido_Paterno varchar2(40)); hasta Update Alumnos set Apellido_Materno='Gonzalez' where id_alumno=5;
+6. Algunos Select y delete cuentan con mensajes para demostrar su función de acuerdo a petición del profesor, selecciónalos y podrás ejecutarlos. 
+7. Consulta las imágenes "CREATE, READ, UPDATE y DELETE" para comparar resultados.
+
+✅ Resultado esperado
+- Se deben crear las columnas id_Alumno, Nombre, Promedio, Apellido_Paterno, Apellido_Materno y Semestre junto con sus respectivos nombres y promedios
+- Cada operador debe ejecutarse exitosamente demostrando las condiciones que se muestran en el script.
+- Se insertan registros de prueba basados a los ejemplos proporcionados en clase.
+- La consulta final debe mostrar a los alumnos con su apellido y semestre correspondiente
